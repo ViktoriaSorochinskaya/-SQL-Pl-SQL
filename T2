@@ -1,0 +1,29 @@
+CREATE USER VIKA identified by 111;
+GRANT CREATE SESSION TO VIKA;
+grant create session to VIKA;
+grant create table to VIKA;
+grant create procedure to VIKA;
+grant create trigger to VIKA;
+grant create view to VIKA;
+grant create sequence to VIKA;
+grant alter any table to VIKA;
+grant alter any procedure to VIKA;
+grant alter any trigger to VIKA;
+grant alter profile to VIKA;
+grant delete any table to VIKA;
+grant drop any table to VIKA;
+grant drop any procedure to VIKA;
+grant drop any trigger to VIKA;
+grant drop any view to VIKA;
+grant drop profile to VIKA;
+
+grant select on sys.v_$session to VIKA;
+grant select on sys.v_$sesstat to VIKA;
+grant select on sys.v_$statname to VIKA;
+grant SELECT ANY DICTIONARY to VIKA;
+
+
+CREATE TABLE t1 (
+ID  NUMBER,
+NAME VARCHAR(20)
+);
